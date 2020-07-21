@@ -239,4 +239,80 @@ img {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* Aula 12 min 3:32*/
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+    .logo {
+        width: 214px;
+        background: url(../img/logo.png) center center/214px no-repeat;
+    }
+    .banner button {
+        font-size: 2em;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 768px) {
+    .servico {
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+    .servico:nth-child(2) {
+        margin-right: 0;
+    }
+    .newsletter h2 {
+        font-size: 2em;
+    }
+    .newsletter h3 {
+        font-size: 1.5em;
+    }
+    .newsletter input {
+        width: 70%;
+        padding: 2%;
+        float: left;
+    }
+    .newsletter button {
+        width: 28%;
+        padding: 2%;
+        float: right;
+        margin-left: 2%;
+        margin-top: 0;
+    }
+
+    /* MEDIUM DEVICES - TABLETS E DESKTOPS */
+    @media screen and (min-width: 960px) {
+        .title {
+            width: 70%;
+            float: left;
+            text-align: left;
+        }
+        .title h2 {
+            font-size: 3em;
+        }
+        .title h3 {
+            font-size: 2em;
+        }
+        .buttons {
+            width: 30%;
+            float: right;
+            margin-top: 0;
+        }
+        .servico {
+            width: 32%;
+        }
+        .servico:nth-child(2) {
+            margin-right: 2%;
+        }
+        .servico:nth-child(3) {
+            margin-right: 0;
+        }
+        .newsletter input {
+            width: 60%;
+            float: none;
+        }
+        .newsletter button {
+            width: 20%;
+            float: none;
+        }
+    }
+}
