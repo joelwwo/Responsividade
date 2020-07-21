@@ -26,10 +26,11 @@ img {
     max-width: 100%;
 }
 
-.cabecalho {
+.container {
     width: 100%;
     float: left;
     padding: 3% 4%;
+    text-align: center;
 }
 
 .logo {
@@ -91,10 +92,6 @@ img {
 }
 
 .banner {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 3% 4%;
     background: url("../img/bg.jpg") no-repeat fixed;
 }
 
@@ -142,12 +139,6 @@ img {
     margin-top: 2%;
 }
 
-.servicos {
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
-}
-
 .servico {
     width: 100%;
     background-color: #fff;
@@ -183,10 +174,6 @@ img {
 }
 
 .newsletter {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 3% 4%;
     background-color: #130400;
 }
 
@@ -224,10 +211,6 @@ img {
 }
 
 .rodape {
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
-    text-align: center;
     background: linear-gradient(to right, #ce2e3c, #da6709);
 }
 
@@ -249,3 +232,5 @@ img {
     margin-top: 2%;
     color: rgba(255, 255, 255, 0.7);
 }
+
+/* Aula 12 min 3:32*/
