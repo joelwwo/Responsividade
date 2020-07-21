@@ -7,6 +7,9 @@ const menu = $('.menu')
 if (btnMenu && btnClose) {
     btnMenu.addEventListener('click', function () {
         menu.style.display = 'inline'
+        /* menu.style['transition-delay'] = '2s';
+        menu.style.transition = '5.5s'
+        menu.style['transition-duration'] = '2s'; */
         btnMenu.style.display = 'none'
     })
 
